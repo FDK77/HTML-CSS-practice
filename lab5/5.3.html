@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: 'Helvetica', sans-serif;
+      background-color: rgb(238, 238, 238);
+    }
+    .cards-layout{
+      margin-top: 5%;
+      margin-left: 5%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      box-shadow: darkgray 0 0 3px 3px;
+      background-color: rgb(255,255,255);
+      max-width: 380px;
+      width: 30vw;
+    }
+
+    img {
+      width: 100%;
+      padding-bottom: 0;
+    }
+
+    button {
+      background-color: rgb(0,153,0);
+      font-size: 0.8rem;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 2px;
+    }
+    .flex-button{
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      margin: 0 2% 2% 0;
+    }
+    card{
+      margin-right: 10px;
+    }
+    h3{
+      font-family: Georgia serif;
+      line-height: 1.2;
+      margin-bottom: 1em;
+      margin-left: 25px;
+    }
+    p{
+      font-size: 14px;
+      margin-top: -10px;
+      margin-left: 25px;
+      margin-right: 10px;
+    }
+  </style>
+  <title>Карточки в стиле Pinterest</title>
+</head>
+<body>
+<section class="cards-layout">
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1538230942844-e89414a0692d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=34dcc54db235ce71b59c1d5ada02bdc4&auto=format&fit=crop&w=400&q=80" alt="Картинка 1">
+    <h3>Card Title</h3>
+    <p>Short description of what this is all about - crafted to make people interested</p>
+    <div class="flex-button">
+      <button type="submit">See More</button>
+    </div>
+  </div>
+</section>
+</body>
+</html>
